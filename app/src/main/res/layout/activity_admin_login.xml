@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:padding="24dp"
     tools:context=".Activity.Login.AdminLoginActivity">
 
     <TextView
@@ -27,7 +27,7 @@
         android:layout_marginTop="16dp"
         android:text="User-Id"
         android:textColor="@color/colorPrimary"
-        android:textSize="20sp"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/header_tv" />
 
@@ -61,7 +61,7 @@
         android:layout_marginTop="16dp"
         android:text="Password"
         android:textColor="@color/colorPrimary"
-        android:textSize="20sp"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/user_id_til" />
 
@@ -95,7 +95,7 @@
         android:layout_marginTop="16dp"
         android:text="Change or Forgot Password ?"
         android:textColor="@color/colorPrimary"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password_til" />
 
@@ -105,7 +105,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        app:cornerRadius="8dp"
+        app:cornerRadius="12dp"
         android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -126,7 +126,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Don't have an account?"
-            android:textSize="16sp"/>
+            android:textSize="18sp"/>
 
         <TextView
             android:id="@+id/register_tv"
@@ -134,7 +134,7 @@
             android:layout_height="wrap_content"
             android:text=" Register"
             android:textColor="@color/colorPrimary"
-            android:textSize="16sp"/>
+            android:textSize="18sp"/>
 
     </LinearLayout>
 
